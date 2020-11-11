@@ -1,13 +1,5 @@
-language: python
+language: android
 dist: xenial
-os:
-  - linux
-  - linux-ppc64le
-
-language: python
-python: 3.4
-virtualenv:
-  system_site_packages: true
-  
+arch: ppc64le
 script:
-  - python --version
+  - arch
