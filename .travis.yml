@@ -1,5 +1,9 @@
-language: android
+language: python
+
+os: linux-ppc64le
 dist: xenial
-arch: ppc64le
+system_site_packages: true
+
+python: "3.4"
 script:
   - arch
