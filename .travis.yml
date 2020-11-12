@@ -2,7 +2,8 @@ language: python
 
 os: linux-ppc64le
 dist: xenial
-system_site_packages: true
+virtualenv:
+  system_site_packages: true
 
 python: "3.4"
 script:
