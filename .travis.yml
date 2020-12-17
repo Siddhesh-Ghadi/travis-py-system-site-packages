@@ -1,10 +1,10 @@
 language: python
 arch: ppc64le
-dist: xenial
+dist: bionic
 virtualenv:
   system_site_packages: true
 
-python: "3.5"
+python: "3.6"
 
 script:
   - arch
