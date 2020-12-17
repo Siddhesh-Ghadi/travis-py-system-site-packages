@@ -1,10 +1,10 @@
 language: python
 arch: ppc64le
-dist: xenial
+dist: focal
 virtualenv:
   system_site_packages: true
 
-python: "3.5"
+python: "3.8"
 
 script:
   - arch
